@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaviru Sandiptha - Social Links</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 600px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #fff;
+            object-fit: cover;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.3s;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .social-link.tiktok {
+            background: #ff0050;
+        }
+
+        .social-link.facebook {
+            background: #1877f2;
+        }
+
+        .social-link.youtube {
+            background: #ff0000;
+        }
+
+        .social-link:hover {
+            transform: scale(1.1);
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gaviru Sandiptha</h1>
+        <p>Connect with me on my social media!</p>
+        
+        <img src="photo.jpg" alt="Gaviru Sandiptha" class="profile-photo">
+        
+        <div class="links">
+            <a href="https://www.tiktok.com/@gavirusandipthaofficial?is_from_webapp=1&sender_device=pc" 
+               class="social-link tiktok" target="_blank">TikTok</a>
+            <a href="https://www.facebook.com/share/18L5oKqShQ/" 
+               class="social-link facebook" target="_blank">Facebook</a>
+            <a href="https://youtube.com/@gavirusandiptha_?si=4WSX5_HuEjujP-1W" 
+               class="social-link youtube" target="_blank">YouTube</a>
+        </div>
+    </div>
+</body>
+</html>
